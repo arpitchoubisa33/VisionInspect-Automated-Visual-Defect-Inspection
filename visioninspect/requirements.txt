@@ -1,0 +1,7 @@
+# Core computer-vision and numerical stack
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Report generation (only needed by scripts/build_report.py)
+reportlab>=4.0.0
