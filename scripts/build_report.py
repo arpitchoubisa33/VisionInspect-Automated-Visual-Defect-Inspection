@@ -170,11 +170,19 @@ def cover(story: list) -> None:
             ["Date", date.today().strftime("%d %B %Y")],
         ], [42 * mm, 123 * mm]),
         Spacer(1, 8 * mm),
-        para("Student name: Arpit Choubisa"
-             "Registration number: 24BAI10514"
-             "Course: Computer Vision",
-             ParagraphStyle("Fill", parent=BODY, alignment=TA_CENTER,
-                            fontSize=9, textColor=MUTED)),
+       para(
+        "Student name: Arpit Choubisa<br/>"
+        "Registration number: 24BAI10514<br/>"
+        "Course: Computer Vision",
+        ParagraphStyle(
+            "Fill",
+            parent=BODY,
+            alignment=TA_CENTER,
+            fontSize=10,
+            leading=14,
+            textColor=MUTED,
+        ),
+    ),
         PageBreak(),
     ]
 
