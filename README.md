@@ -100,7 +100,7 @@ Additional capabilities:
 
 ```bash
 # 1. Clone
-git clone <your-repository-url>
+git clone https://github.com/arpitchoubisa33/VisionInspect-Automated-Visual-Defect-Inspection.git
 cd visioninspect
 
 # 2. Create an isolated environment (recommended)
@@ -291,7 +291,7 @@ visioninspect/
 │   └── report/
 │       ├── visualize.py          # overlays and plots
 │       └── reporter.py           # CSV / JSON / Markdown reports
-├── tests/                        # 63 unittest tests
+├── tests/                        # 77 unittest tests
 ├── scripts/
 │   ├── robustness_study.py       # degradation experiments
 │   ├── model_selection.py        # CV comparison, ablation, learning curves
@@ -323,6 +323,12 @@ values below 1.0 raise it. Invalid values are rejected at construction with a
 - [`docs/DESIGN.md`](docs/DESIGN.md) — architecture, UML diagrams, design rationale, requirements traceability
 - [`docs/ML.md`](docs/ML.md) — dataset description, model selection rationale, evaluation methodology
 - `Project_Report.pdf` — the full submission report
+
+  ## Author
+
+- **Name:** Arpit Choubisa
+- **Registration Number:** 24BAI10514
+- **Course:** Computer Vision
 
 ## License
 
