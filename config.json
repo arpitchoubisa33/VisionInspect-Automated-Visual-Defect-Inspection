@@ -1,0 +1,27 @@
+{
+  "data": {
+    "samples_per_class": 80,
+    "image_size": 256,
+    "random_seed": 7
+  },
+  "preprocess": {
+    "target_size": 256,
+    "median_ksize": 3,
+    "clahe_clip": 1.5,
+    "clahe_grid": 4
+  },
+  "segment": {
+    "background_ksize": 41,
+    "morph_ksize": 3,
+    "min_area": 40,
+    "max_regions": 8,
+    "sensitivity": 1.0
+  },
+  "model": {
+    "k": 5,
+    "weighted": true,
+    "test_ratio": 0.25,
+    "random_seed": 42
+  },
+  "log_level": "INFO"
+}
