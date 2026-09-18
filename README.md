@@ -322,7 +322,7 @@ values below 1.0 raise it. Invalid values are rejected at construction with a
 - [`statement.md`](statement.md) — problem statement, scope, target users
 - [`docs/DESIGN.md`](docs/DESIGN.md) — architecture, UML diagrams, design rationale, requirements traceability
 - [`docs/ML.md`](docs/ML.md) — dataset description, model selection rationale, evaluation methodology
-- `Project_Report.pdf` — the full submission report
+- [Download Full Project Report (PDF)](Project_Report.pdf)
 
   ## Author
 
